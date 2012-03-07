@@ -4,7 +4,7 @@ using namespace std;
 class Shape {
 	private:
 	public:
-		int area(){ return 0;}
+		virtual int area()=0;
 
 };
 
