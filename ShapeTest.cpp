@@ -4,7 +4,7 @@ using namespace std;
 class Shape {
 	private:
 	public:
-		int area( void ){ return 0;}
+		int area(){ return 0;}
 
 };
 
@@ -12,13 +12,13 @@ class Rectangle: public Shape {
 	private:
 	int width, height;
 	public: 
-		void setWidth( int widthIn ) {
-			width = widthIn;
+		void setWidth( int width ) {
+			this->width = width;
 		}
-		void setHeight( int heightIn ) {
-			height = heightIn;
+		void setHeight( int width ) {
+			this->height = width;
 		}
-		int area( void ) {
+		int area() {
 			return width * height;
 		}
 
